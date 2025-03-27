@@ -1,0 +1,242 @@
+
+*{
+  overflow-x: hidden;
+}
+body html {
+  font-family: "Bebas Neue", sans-serif;
+  background-color: black;
+  color: white;
+  padding: 0;
+  margin: 0;
+ 
+  
+}
+
+/* navbar */
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(netfix\ background.jpeg);
+  background-size: cover;
+  background-position: 100%;
+  height: 110vh;
+  width: 100%;
+}
+.container {
+ margin: 10px;
+ 
+
+}
+.netflix_logo{
+  margin-left: 95px;
+  
+}
+.nav_sign{
+  margin-right: 95px;
+  background-color:#e50914;
+ 
+}
+
+nav img {
+  width: 15%;
+}
+.red-btn {
+  background-color:#e50914;
+  color: white;
+  border: 0;
+  border-radius: 0.25rem;
+  padding: 5px 17px;
+}
+.red-btn:hover {
+  background-color:#bf000a;
+}
+/* TV */
+  .enjoy_image{
+    position: relative;
+  }
+   .tv{
+    position: relative;
+    z-index: 10;
+    
+
+  }
+  .enjoy_img video{
+    position: absolute;
+    top: 2;
+    right: 0;
+    width: 30%;
+    transform: translatex(-45%);
+    margin-top: 80px;
+   
+  }
+  .enjoy_tv{
+    position: relative;
+  }
+  .enjoy_tv video{
+    position: absolute;
+    top: 2;
+    right: 0;
+    width: 60%;
+    height: 70%;
+    transform: translatex(-35%);
+    
+  }
+  /* show */
+  .show{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+text-align: center;
+
+    margin-left: 115px;
+    transform: translateY(-130%);
+    position:  absolute;
+    background-color: black;
+    border-radius: 10px;
+    width: 23%;
+    height: 105px;
+    border: 2px solid white;
+  }
+  .stranger_img img{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 70px;
+    margin-left: 10px;
+   
+  }
+.show span{
+  color: blue;
+}
+.text{
+  font-weight: bolder;
+  font-size: 19px;
+  text-align: left;
+  /* margin-left: 10px; */
+}
+.stranger_gif img{
+  width: 50px;
+}
+/* hero section  */
+.hero-title {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.hero-first-p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.hero-second-p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+form .form-floating {
+  width: 50%;
+}
+form #floatinginput {
+  background: transparent;
+  color: white;
+}
+form label {
+  color: white;
+  margin-left: 10px;
+}
+
+/* second-section */
+.enjoy-section {
+  border-top: 8px solid rgb(65, 64, 64);
+  background-color: black !important;
+  color: white;
+}
+.section-title {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.section-paragraph {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.download-section {
+  border-top: 8px solid rgb(65, 64, 64);
+  background-color: black !important;
+  color: white;
+}
+.child-section {
+  border-bottom: 8px solid rgb(65, 64, 64);
+}
+.faq-section {
+  background-color: black;
+  border-bottom: 8px solid rgb(65, 64, 64);
+}
+footer{
+  background-color: black;
+
+}
+footer ul{
+  list-style: none;
+  margin-left: 0;
+}
+footer ul li a{
+
+  color: white;
+}
+.contact-us{
+
+  margin-bottom: 4rem;
+}
+.contact-us a{
+  color: #FFFFFFB3;
+}
+.accordion-header .accordion-button{
+  font-size: 1.5rem;
+  font-weight: 400;
+
+}
+.accordion-body{
+  font-size: 1.5rem;
+  font-weight: 200;
+
+}
+
+
+
+/* .accordion-header .accordion-button::after{
+  content: "+";
+  color: white;
+  background-image: none;
+  position: absolute;
+  height: 30px;
+  font-size: 50px;
+  top: 5px;
+  right: 45px;
+} */
+.footer{
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 60px;
+}
+.footer a{
+  color: #FFFFFFB3;
+ 
+ 
+}
+.footer a:hover{
+  color: #FFFFFFB3;
+}
+.footer button{
+  background-color: rgb(24, 22, 22);
+  color: white;
+  border: 1px solid rgb(118, 117, 117);
+}
+.footer button:hover{
+  background-color:rgb(24, 22, 22) ;
+  color: white;
+}
+.footer button:active{
+  background-color:rgb(24, 22, 22) ;
+  color: white;
+  outline: white;
+}
+.netflix_pakistan{
+  color: #FFFFFFB3;
+}
